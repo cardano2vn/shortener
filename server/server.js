@@ -77,6 +77,7 @@ app.get("*", renders.notFound);
 // handle errors coming from above routes
 app.use(helpers.error);
   
-app.listen(env.PORT, () => {
+// app.listen(env.PORT, () => {
+module.exports = app;
   console.log(`> Ready on http://localhost:${env.PORT}`);
-});
+// });

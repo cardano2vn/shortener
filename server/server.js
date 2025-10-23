@@ -78,6 +78,6 @@ app.get("*", renders.notFound);
 app.use(helpers.error);
   
 // app.listen(env.PORT, () => {
-module.exports = app;
-  console.log(`> Ready on http://localhost:${env.PORT}`);
+//  console.log(`> Ready on http://localhost:${env.PORT}`);
 // });
+module.exports = app;
